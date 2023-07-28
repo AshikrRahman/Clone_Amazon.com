@@ -1,0 +1,593 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.nav{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav:hover{
+    cursor: pointer;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-logo{
+    height: 56px;
+    width: 100px;  
+}
+.logo{
+    background-image: url(img/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-top: 2px;
+}
+/* .nav-logo:hover{
+    border: 2px solid white;
+    cursor: pointer;
+} */
+.box2{
+    height: 56px;
+    width: 100px;
+    color: white;
+    
+}
+.box2 i{ 
+    align-self: center;
+    align-self: start;
+    margin-right: 5px;
+}
+#box2-li-1{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+#ba{
+    font-size: 14px;
+}
+.box2-li-2{
+    display: flex;
+    font-weight: bold;
+}
+.box2-li-2 p{
+    margin-top: 5px;
+}
+/* .box2:hover {
+    border: 2px solid white;
+} */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 5px;
+
+}
+.search-icon{
+    color: white;
+}
+.nav-selector{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+.nav-selector:hover{
+    cursor: pointer;
+    background-color: #dcdcdc;
+}
+.nav-search input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+.search-icon {
+    height: 40px;
+    width: 45px;
+    background-color: #febd68;
+    font-size: 25px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: -4px;
+    padding-right: 6px;
+}
+.search-icon:hover{
+    background-color:#f8af50;
+    cursor: pointer;
+}
+.search-icon i{
+    color: black;
+}
+.box3{
+    height: 45px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-selector{
+    background-color: #0F1111;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+.box3 img{
+    margin-right: 4px;
+}
+.box5{
+    width: 113px;
+    height: 40px;
+    margin-top: 8px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.box5-li-1{
+    color: white;
+    font-size: 12px;
+}
+.box5-li-2{
+    background-color: #0F1111;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box6{
+    color: white;
+}
+.box6-li-1{
+    font-size: 12px;
+}
+.box6-li-2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    color: white;
+    display: flex;
+}
+.cart i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.cart p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav-2{
+    height: 39px;
+    background-color:#222f3d;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.nav-all ,i{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nav2-rest-t{
+    list-style-type: none;
+}
+.nav2-rest-t li{
+    display: inline-block; 
+    margin: 10px;
+}
+.nav2-rest-t a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.hero-section{
+    background-image: url(img/hero1.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+.hero-section p{
+    height: 20px;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    /* align-self: self-end; */
+    margin-top: 220px;
+}
+.hero-section a{
+    text-decoration: none;
+    color: #007185;
+}
+.shoping-box{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: end; */
+}
+.sbox1{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+.sbox2{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+.sbox3{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+
+    position: relative;
+    bottom: 300px;
+}
+.sbox4{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+.shoping-box{
+    background-color: #bae0b7;
+}
+.shoping-box2{
+    background-color: #bae0b7;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sbox5{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 275px;
+}
+.sbox6{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 275px;
+}
+.sbox7{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 275px;
+}
+.sbox8{
+    width: 305px;
+    height: 385px;
+    background-color: white;
+    position: relative;
+    bottom: 275px;
+}
+/* .shoping-box3{
+    height: 260px;
+    background-color: white;
+    border: 2px solid black;
+} */
+.sbox1 h2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.box-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-img img{
+    width: 160px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.box-img1-title{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.box-img2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.box-img2 img{
+    width: 160px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.sbox1 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: #007185;
+}
+.sbox2 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box2-img{
+    background-image: url(img/box2img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* margin-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-right: 10px; */
+}
+.sbox2 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.box3-img{
+    background-image: url(img/box3img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox3 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox3 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box4-img{
+    background-image: url(img/box4img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox4 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox4 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box5-img{
+    background-image: url(img/box5img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox5 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox5 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box6-img{
+    background-image: url(img/box6img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox6 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox6 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box7-img{
+    background-image: url(img/box7img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox7 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox7 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box8-img{
+    background-image: url(img/box8img.jpg);
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sbox8 a{
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: #007185;
+}
+.sbox8 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* .footer{
+    height: 200px;
+    width: 100%;
+    background-color: #222f3d;
+} */
+.back-to-top{
+    height: 50px;
+    background-color: #3e5269;
+    display: flex;
+    justify-content: center;
+}
+.back-to-top p{
+    color: white;
+    font-size: 14px;
+    align-self: center;
+}
+.back-to-top:hover{
+    cursor: pointer;
+    background-color: #6e8bac;
+}
+.last{
+    /* height: 200px; */
+    width: 100%;
+    background-color: #222f3d;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.last1{
+    margin-top: 50px;
+}
+.last2{
+    margin-top: 50px;
+}
+.last3{
+    margin-top: 50px;
+}
+.last4{
+    margin-top: 50px;
+}
+.abc a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.abc{
+    list-style-type: none;
+}
+.abc li{
+    margin-top: 10px;
+}
+.abc:hover a{
+    text-decoration: underline;
+}
+.sbox1:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox1:hover {
+    cursor: pointer;
+}
+.sbox2:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox2:hover {
+    cursor: pointer;
+}
+.sbox3:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox3:hover {
+    cursor: pointer;
+}
+.sbox4:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox4:hover {
+    cursor: pointer;
+}
+.sbox5:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox5:hover {
+    cursor: pointer;
+}
+.sbox6:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox6:hover {
+    cursor: pointer;
+}
+.sbox7:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox7:hover {
+    cursor: pointer;
+}
+.sbox8:hover a{
+    color: red;
+    text-decoration: underline;
+}
+.sbox8:hover {
+    cursor: pointer;
+}
+.credit{
+    background-color: #222f3d;
+    color: white;
+    /* text-align: center; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try{
+    margin-bottom: 15px;
+}
+.credit:hover{
+    color: red;
+}
